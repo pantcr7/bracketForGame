@@ -1,0 +1,240 @@
+
+
+
+
+.col-8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0.2%;
+    margin-left: 20px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.row-16{
+    display: grid;
+   
+}
+.r-of-16{
+    float: left;
+    margin-top: 25%;
+    width:100%;
+  }
+ 
+  .row-8{
+    display: grid;
+    
+}
+.r-of-8{
+    float: left;
+    margin-top: 46%;
+    width:100%;
+  }
+
+  .row-4{
+    display: grid;
+    
+}
+.r-of-4{
+    float: left;
+    margin-top: 104%;
+    width:100%;
+  }
+
+  .row-2{
+    display: grid;
+    
+}
+.r-of-2{
+    float: left;
+    margin-top: 203%;
+    width:100%;
+  }
+
+  .row-1{
+    display: grid;
+    
+}
+.r-of-1{
+    float: left;
+    margin-top: 406%;
+    width:100%;
+  }
+  .bracket-game {
+    max-width: 100%;
+   margin-top: 10px;
+  }
+  .player {
+    min-width: 100px;
+    border: 1px solid rgb(83, 15, 15);
+    padding-left: 10px;
+  }
+  .player.top {
+    border-radius: 3px 3px 0 0;
+  }
+  .player >.bot {
+    border-radius: 0 0 3px 3px;
+  }
+  .player .score {
+    display: inline;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(161, 114, 236);
+  }
+
+  .player.win {
+    background-color: #3df064f6;
+  }
+
+  .player.loss {
+    background-color: #dd3d4a;
+  }
+  .row-8-connectors{
+    display: grid;
+    
+  }
+  .r-of-8-connectors {
+    margin-top: 3px;
+    width: 100px;
+  }
+   
+  
+  .r-of-8-connectors .top-line {
+    position: relative;
+    top: 55px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-8-connectors .bottom-line {
+    position: relative;
+    top: 105px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-8-connectors .vert-line {
+    position: relative;
+    top: 53px;
+    right: 48px;
+    height: 52px;
+    border-right: 2px solid #AAA;
+  }
+  .r-of-8-connectors .next-line {
+    position: relative;
+    top: 23px;
+    left: 50px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .clear {
+    clear: both;
+  }
+  .row-4-connectors{
+    display: grid;
+    
+  }
+  .r-of-4-connectors {
+    margin-top: 8px;
+    width: 100px;
+  }
+   
+  
+  .r-of-4-connectors .top-line {
+    position: relative;
+    top: 73px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-4-connectors .bottom-line {
+    position: relative;
+    top: 200px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-4-connectors .vert-line {
+    position: relative;
+    top: 70px;
+    right: 48px;
+    height: 130px;
+    border-right: 2px solid #AAA;
+  }
+  .r-of-4-connectors .next-line {
+    position: relative;
+    top: 3px;
+    left: 50px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+
+  .row-2-connectors{
+    display: grid;
+    
+  }
+  .r-of-2-connectors {
+    margin-top: -6px;
+    width: 100px;
+  }
+
+  .r-of-2-connectors .top-line {
+    position: relative;
+    top: 153px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-2-connectors .bottom-line {
+    position: relative;
+    top: 406px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-2-connectors .vert-line {
+    position: relative;
+    top: 150px;
+    right: 48px;
+    height: 255px;
+    border-right: 2px solid #AAA;
+  }
+  .r-of-2-connectors .next-line {
+    position: relative;
+    top: 3px;
+    left: 50px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+
+  .row-1-connectors{
+    display: grid;
+    
+  }
+  .r-of-1-connectors {
+    margin-top: -35px;
+    width: 100px;
+  }
+
+  
+  .r-of-1-connectors .top-line {
+    position: relative;
+    top: 290px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-1-connectors .bottom-line {
+    position: relative;
+    top: 800px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
+  .r-of-1-connectors .vert-line {
+    position: relative;
+    top: 287px;
+    right: 48px;
+    height: 513px;
+    border-right: 2px solid #AAA;
+  }
+  .r-of-1-connectors .next-line {
+    position: relative;
+    top: 3px;
+    left: 50px;
+    width: 50px;
+    border: 1px solid #AAA;
+  }
